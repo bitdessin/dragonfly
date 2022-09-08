@@ -79,3 +79,17 @@ python train.py --class-label   classes_species.txt                 \
                 --epochs 5 --batch-size 32 --lr 0.001
 ```
 
+
+## Citation
+
+```
+@article{Sun_2021,
+    doi = {10.3389/fevo.2021.762173},
+    url = {https://doi.org/10.3389/fevo.2021.762173},
+    year = 2021,
+    volume = {9},
+    author = {Sun, Jianqiang and Futahashi, Ryo and Yamanaka, Takehiko},
+    title = {Improving the Accuracy of Species Identification by Combining Deep Learning With Field Occurrence Records},
+    journal = {Frontiers in Ecology and Evolution}
+}
+```
