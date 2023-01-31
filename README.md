@@ -1,5 +1,10 @@
 # Dragonfly Classification
 
+## Demo App
+
+https://dragonfly.biunit.app/
+
+
 ## Usage
 
 ### Preparation
@@ -8,12 +13,12 @@ The pre-trained weights for species or genus classification models can be downlo
 
 ```bash
 mkdir weights
-wget -P ./weights https://biunit.org/storage/dragonfly/species_resnet152.pth
-wget -P ./weights https://biunit.org/storage/dragonfly/species_vgg19.pth
-wget -P ./weights https://biunit.org/storage/dragonfly/genus_resnet152.pth
-wget -P ./weights https://biunit.org/storage/dragonfly/genus_vgg19.pth
-wget -P ./weights https://biunit.org/storage/dragonfly/meshmatrix_species.tsv.gz
-wget -P ./weights https://biunit.org/storage/dragonfly/meshmatrix_genus.tsv.gz
+wget -P ./weights https://biunit.dev/storage/dragonfly/species_resnet152.pth
+wget -P ./weights https://biunit.dev/storage/dragonfly/species_vgg19.pth
+wget -P ./weights https://biunit.dev/storage/dragonfly/genus_resnet152.pth
+wget -P ./weights https://biunit.dev/storage/dragonfly/genus_vgg19.pth
+wget -P ./weights https://biunit.dev/storage/dragonfly/meshmatrix_species.tsv.gz
+wget -P ./weights https://biunit.dev/storage/dragonfly/meshmatrix_genus.tsv.gz
 ```
 
 
